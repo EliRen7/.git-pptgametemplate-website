@@ -22,7 +22,7 @@
 
 
 .navbar.change {
-  height: 100vh;
+  height: 120vh;
 }
 
 @keyframes animateNavbar {
@@ -146,11 +146,11 @@
     position: relative;
   }
 
- 
 
-  .swiper-container
+
+ .swiper-container
  {
-    width: 150%;
+    width: 150vw;
     padding-top: 50px;
     padding-bottom: 200px;
     overflow: hidden;
@@ -165,7 +165,7 @@
 
 }
 
-h1{
+.title{
   font-family: 'neon', sans-serif;
   font-size: 90px;
   letter-spacing: 10px;
@@ -178,8 +178,30 @@ h1{
   top: 10vh;
 }
 
+.container-heading{
+  position: absolute;
+  bottom: 0.2vh;
+}
 
-  .swiper-slide
+.about{
+  font-family: 'Neon', sans-serif;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+}
+
+.h2{
+  font-size: 1.25rem;
+  color: #fff;
+  text-align: justify;
+  /* position: absolute;
+  transform: translate(-20%, -15%);
+  align-items: center; */
+
+}
+
+
+.swiper-slide
   {
     background-position: center;
     background-size: cover;
@@ -189,6 +211,42 @@ h1{
     -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006);
 
   }
+
+
+
+
+
+
+
+/* Responsive Title (Gameleon) and paragraph in About section */
+
+@media (max-width: 595px) {
+    .h2 {
+      font-size: 4vw;
+      overflow-wrap: break-word;
+    }
+}
+
+@media (max-width: 595px) {
+  .about {
+    font-size: 5vw;
+  }
+}
+
+@media (max-width: 570px) {
+    .title{
+    font-size: 12vw;
+  }
+}
+
+@media only screen and (max-width: 595px){
+  html {
+    zoom: .9;
+  }
+}
+
+/* End of responsive title and paragraph */
+
 
 /* Responsive Nav */
 
@@ -223,5 +281,5 @@ h1{
     letter-spacing: 2rem;
   }
 
-
-  /* End of Responsive Nav */
+  /* End of responsive Nav */
+}
