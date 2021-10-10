@@ -144,6 +144,7 @@
     background-size: cover;
     background-position: bottom center;
     position: relative;
+    overflow-x: hidden;
   }
 
 
@@ -178,27 +179,6 @@
   top: 10vh;
 }
 
-.container-heading{
-  position: absolute;
-  bottom: 0.2vh;
-}
-
-.about{
-  font-family: 'Neon', sans-serif;
-  color: #fff;
-  font-size: 40px;
-  text-align: center;
-}
-
-.h2{
-  font-size: 1.25rem;
-  color: #fff;
-  text-align: justify;
-  /* position: absolute;
-  transform: translate(-20%, -15%);
-  align-items: center; */
-
-}
 
 
 .swiper-slide
@@ -209,43 +189,135 @@
     height: 230px;
     background: #000;
     -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006);
-
   }
 
 
 
-
-
-
-
-/* Responsive Title (Gameleon) and paragraph in About section */
-
-@media (max-width: 595px) {
-    .h2 {
-      font-size: 4vw;
-      overflow-wrap: break-word;
-    }
+/* Section-4 Footer (Food Lecture) */
+.section-4{
+  position: absolute;
+  bottom: 0.2vh;
+  width: 100%;
+  height: 15vh;
+  background-color:rgba(63, 14, 104, 0.9);
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 0;
+  align-items: flex-start;
+  opacity: 0.9;
 }
 
-@media (max-width: 595px) {
-  .about {
-    font-size: 5vw;
+.section-4-text {
+  text-transform: uppercase;
+}
+
+.section-4-heading {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #a79a2d;
+  position: absolute;
+  left: 32.5rem;
+  top: 3rem;
+}
+
+.section-4-paragraph {
+  position: absolute;
+  top: 1rem;
+  left: 28rem;
+  font-size: 1rem;
+  color: rgb(126, 125, 125);
+}
+
+.signup-form {
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+}
+
+.signup-form-input {
+  width: 20rem;
+  height: 1rem;
+  padding: 1rem;
+  border: 0.1rem solid #a79a2d;
+  border-radius: 2rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: #a79a2d;
+  position: absolute;
+  right: 5rem;
+}
+
+.signup-form-input::placeholder {
+  color: #a79a2d;
+}
+
+.signup-form-btn {
+  position: absolute;
+  width: 2.5rem;
+  height: 1rem;
+  background-color: #fff;
+  color: #a79a2d;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  left: 70rem;
+  bottom: 3rem;
+  top: 2.1rem;
+}
+
+/* End of Section-4 Footer */
+
+/* Section 6 */
+.section-6 {
+  width: 100%;
+  height: 10vh;
+  position: absolute;
+  left: 2rem;
+  top: 2.5rem;
+}
+
+.icon-link {
+  margin: 0 2.5rem;
+  padding: 0;
+
+}
+
+.icon-link img{
+  width: 2.5rem;
+}
+
+/* End of Section 6 */
+/* Responsive Footer */
+
+
+@media (max-width: 1400px) {
+  .section-4 {
+    height: 5rem;
   }
 }
 
+
+
+
+/* End of Responsive Footer (Food Lecture) */
+
+
+
+
+
+/* Reponsive html and title */
 @media (max-width: 570px) {
     .title{
     font-size: 12vw;
   }
 }
-
 @media only screen and (max-width: 595px){
   html {
     zoom: .9;
   }
 }
-
-/* End of responsive title and paragraph */
+/* End of responsive html and title*/
 
 
 /* Responsive Nav */
@@ -280,6 +352,50 @@
     opacity: 0;
     letter-spacing: 2rem;
   }
-
-  /* End of responsive Nav */
 }
+  /* End of responsive Nav */
+
+
+
+
+
+/* About section at the bottom of landing page */
+
+/* .container-heading{
+  position: absolute;
+  bottom: 0.2vh;
+}
+
+.about{
+  font-family: 'Neon', sans-serif;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+}
+
+.h2{
+  font-size: 1.25rem;
+  color: #fff;
+  text-align: justify;
+  /* position: absolute;
+  transform: translate(-20%, -15%);
+  align-items: center; */
+
+/* } */ 
+/* End of about section at the bottom of landing page */
+
+/* Responsive section of about section in the landing page */
+
+/* @media (max-width: 595px) {
+    /* .h2 {
+      font-size: 4vw;
+      overflow-wrap: break-word;
+    }
+}
+
+@media (max-width: 595px) {
+  .about {
+    font-size: 5vw;
+  } */
+
+ /* End  of about section in the landing page */
