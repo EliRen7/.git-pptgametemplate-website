@@ -43,7 +43,7 @@
     perspective: 100rem;
   }
   
-  .form-img {
+  /* .form-img {
     width: 15rem;
     height: 16rem;
     background-color: rgba(50, 231, 255, 0.8);
@@ -53,12 +53,11 @@
     border-radius: 0.5rem;
     transform: rotateY(20deg);
     transition: all 0.5s;
-  }
+  } */
   
-  .form-img:hover {
-    transform: translateY(-2rem) rotateY(20deg);
+  /* .form-img:hover {
     box-shadow: -5rem 5rem 7rem #aaa;
-  }
+  } */
   
   .contact-form {
     width: 20rem;
@@ -69,12 +68,13 @@
     padding: 3rem;
     border-radius: 0.5rem;
     box-shadow: 3rem 3rem 4rem #aaa;
-    transform: rotateY(-20deg);
-    transition: all 0.5s;
+    transition: .5s;
+    position: absolute;
+    bottom: 4rem;
   }
+
   
   .contact-form:hover {
-    transform: translateY(-2rem) rotateY(-20deg);
     box-shadow: 5rem 5rem 7rem #aaa;
   }
   
