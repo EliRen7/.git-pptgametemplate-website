@@ -4,6 +4,8 @@
   src: url("Fonts/neon_80s/Neon.ttf");
 }
 
+
+
 /* Navbar */
 .navbar {
   width: 100%;
@@ -271,7 +273,7 @@
 /* Section 6 */
 .section-6 {
   width: 100%;
-  height: 10vh;
+  height: 5vh;
   position: absolute;
   left: 2rem;
   top: 2.5rem;
