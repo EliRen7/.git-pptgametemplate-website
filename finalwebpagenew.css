@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: neon;
   src: url("Fonts/neon_80s/Neon.ttf");
@@ -189,9 +188,6 @@
     background: #000;
     -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006);
   }
-
-
-
 
 
 
