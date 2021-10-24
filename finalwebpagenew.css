@@ -210,8 +210,8 @@
   opacity: 0.9;  
 }  
 
-/* .section-4-text {
-  text-transform: uppercase;
+ .section-4-text {
+text-transform: uppercase;
 }
 
 .section-4-heading {
@@ -268,14 +268,14 @@
   cursor: pointer;
   left: 72rem;
   top: -12px;  
-}  */
+} 
 
 /* End of Section-4 Footer */
 
 
 
 /* Section 6  */
- /* .section-6 {
+ /* .section-6-icons {
   height: 5vh;
   width: 100%;
   left: 53rem;
@@ -291,8 +291,6 @@
 .icon-link img{
   width: 2.5rem;
   position: absolute;
-  top: 56rem; 
-  right: 30rem;
 
 }  */
  /* End of Section 6  */
