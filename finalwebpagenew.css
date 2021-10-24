@@ -270,30 +270,23 @@ text-transform: uppercase;
   top: -12px;  
 } 
 
-/* End of Section-4 Footer */
-
-
-
-/* Section 6  */
- /* .section-6-icons {
+.section-6-icons {
   height: 5vh;
   width: 100%;
-  left: 53rem;
+  left: 3rem;
   top: 2.5rem;
   position: absolute;
  }
 
 .icon-link {
-  margin: 0 -5rem;
-  position: absolute;
-}
+  margin: 0 2.5rem;
+}  
 
 .icon-link img{
   width: 2.5rem;
-  position: absolute;
 
-}  */
- /* End of Section 6  */
+}   
+ /* End of FOOTER  */
 
 
 
@@ -301,34 +294,7 @@ text-transform: uppercase;
 /* Responsive webpage*/
 
 
-/* @media (max-width:1240px){
-  .signup-form-input{
-    width: 24rem;
-  }
-  .signup-form-btn{
-    left: 66rem;
-  }
-} */
-
-/* @media(max-width: 1120px){
-  .footer{
-    height: 18vh;
-  }
-  .signup-form-input{
-    top: 1.5rem;
-    left: 33rem;
-  }
-  .signup-form-btn{
-    top: 1.8rem;
-    left: 45rem;
-  }
-  .section-4-heading{
-      font-size: 1rem;
-  }
-  .section-4-paragraph{
-      font-size: .8;
-  }
-} */
+  
 
 @media (max-width: 550px){
   html{
@@ -344,31 +310,8 @@ text-transform: uppercase;
   .title{
     font-size: 88px;
   }
-  /* .signup-form-input{
-      height:3rem;
-      left: 4rem;
-    
-  }
-  .signup-form-btn{
-      left: 24rem;
-      top: 2.2rem;
-  }
-  .section-4-heading{
-      left: 12rem;
-      top: 4rem;
-      font-size: 1.5rem;
-  }
-  .section-4-paragraph{
-      left: 3rem;
-      font-size: 1.4rem;
-      /* white-space: nowrap; */
-  /* }
-  .footer{
-      height: 25vh;
-  }
-  .signup-form-input::placeholder{
-      font-size: 1rem;
-  } */
+ 
+ 
 
 
 @media (max-width: 378px){
