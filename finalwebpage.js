@@ -2,8 +2,6 @@
 const menu = document.querySelector(".menu");
 const navbar = document.querySelector(".navbar");
 
-
-
 menu.addEventListener("click", () => {
   navbar.classList.toggle("change");
   menu.classList.toggle('change')
@@ -11,7 +9,7 @@ menu.addEventListener("click", () => {
 // End of Navbar
 
 
-//3D Carasoul//
+//3D Carousel//
 
     var swiper = new Swiper('.swiper-container', {
       effect: 'coverflow',
@@ -32,6 +30,6 @@ menu.addEventListener("click", () => {
       },
     });
 
-//End of Carasoul//
+//End of Carousel//
    
 

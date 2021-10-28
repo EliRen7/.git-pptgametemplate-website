@@ -3,7 +3,32 @@
   src: url("Fonts/neon_80s/Neon.ttf");
 }
 
+body {
+  background: #fff;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 170vh;
+  background: url(imgs/landscape.jpg) no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  position: relative;
+  overflow-x: hidden;
+}
 
+.title{
+  font-family: 'neon', sans-serif;
+  font-size: 90px;
+  letter-spacing: 10px;
+  color: #fff;
+  padding: 30px;
+}
+
+.gameleon{
+  position: absolute;
+  top: 10vh;
+}
 
 /* Navbar */
 .navbar {
@@ -132,21 +157,8 @@
 }
 /* End of Navbar */
 
- body {
-    background: #fff;
-    color: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 170vh;
-    background: url(imgs/landscape.jpg) no-repeat;
-    background-size: cover;
-    background-position: bottom center;
-    position: relative;
-    overflow-x: hidden;
-  }
 
-
+/* 3D Carousel */
 
  .swiper-container
  {
@@ -165,20 +177,6 @@
 
 }
 
-.title{
-  font-family: 'neon', sans-serif;
-  font-size: 90px;
-  letter-spacing: 10px;
-  color: #fff;
-  padding: 30px;
-}
-
-.gameleon{
-  position: absolute;
-  top: 10vh;
-}
-
-
 .swiper-slide
   {
     background-position: center;
@@ -189,9 +187,9 @@
     -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006);
   }
 
+/* End of 3D Carousel */
 
-
-/* Section-4 Footer (Food Lecture) */
+/* Footer*/
  .footer{
   position: absolute;
   bottom: 0.2vh;
@@ -206,11 +204,11 @@
   opacity: 0.9;  
 }  
 
- .section-4-text {
+ .text {
 text-transform: uppercase;
 }
 
-.section-4-heading {
+.heading {
   font-size: 1.5rem;
   font-weight: 900;
   color: #a79a2d;
@@ -219,7 +217,7 @@ text-transform: uppercase;
   top: 3rem;
 }
 
-.section-4-paragraph {
+.paragraph {
   position: absolute;
   top: 1rem;
   left: 30rem;
@@ -266,7 +264,7 @@ text-transform: uppercase;
   top: -12px;  
 } 
 
-.section-6-icons {
+.icons {
   height: 5vh;
   width: 100%;
   left: 3rem;
@@ -282,15 +280,11 @@ text-transform: uppercase;
   width: 2.5rem;
 
 }   
- /* End of FOOTER  */
+ /* End of Footer */
 
 
+/* Responsive webpage Section*/
 
-
-/* Responsive webpage*/
-
-
-  
 
 @media (max-width: 550px){
   html{
@@ -343,12 +337,12 @@ text-transform: uppercase;
   }
 }
 
-/* End of Responsive webpage*/
+/* End of Responsive webpage section*/
 
 
 
 
-/* Responsive Nav */
+/* Responsive Nav section */
 
 @keyframes animateHeading {
   0% {
@@ -381,6 +375,6 @@ text-transform: uppercase;
     letter-spacing: 2rem;
   }
 }
-  /* End of responsive Nav */
+  /* End of responsive Nav section */
 
 }
