@@ -1,8 +1,13 @@
 
 
 
+html{
+  overflow: hidden !important;
+}
+
 
 .btn{
   background-color: darkmagenta;
   color: #fff;
 }
+
