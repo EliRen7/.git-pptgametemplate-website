@@ -192,8 +192,7 @@ body {
 
 /* Footer */
 footer{
-  background-color: rgba(68, 22, 153, 0.9);
-  height: 8.5rem !important;
+  background-color: rgba(53, 14, 126, 0.9);
   overflow-x: hidden;
 }
 
@@ -341,6 +340,32 @@ text-transform: uppercase;
 }
 
 /* End of Responsive webpage section*/
+
+
+/* Responsive Footer */
+
+@media (max-width: 768px) {
+  footer{
+    height: 12rem !important;
+  }
+}
+
+@media (max-width: 323px){
+  strong{
+    font-size: 11px !important;
+  }
+}
+
+
+@media (min-width: 768px) {
+  footer{
+    height: 11rem !important;
+  }
+  
+}
+
+/* End of Responsive Footer */
+
 
 /* Responsive Nav section */
 
