@@ -1,3 +1,16 @@
+@font-face {
+  font-family: neon;
+  src: url("Fonts/neon_80s/Neon.ttf");
+}
+
+
+h1{
+  font-family: "Neon", sans-serif;
+}
+
+
+
+
 /* 
 html{
   overflow: hidden !important;
@@ -9,5 +22,15 @@ html{
   background-color: darkmagenta;
   color: #fff;
 }
+/* 
+
+#logo{
+  height: 3.2rem;
+  width: 6rem;
+  position: absolute;
+  align-items: center;
+  top: 1rem;
+  left: 28rem;
+} */
 
 
