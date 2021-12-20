@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@font-face {
+    font-family: neon;
+    src: url("Fonts/neon_80s/Neon.ttf");
+  }
+  
 
 * {
     margin: 0;
@@ -6,6 +11,8 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif
 }
+
+
 
 
 body {
@@ -16,6 +23,9 @@ body {
     background-image: url('imgs/fakurian-design-F93PQmh4krI-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 .container {
@@ -95,7 +105,7 @@ body {
     left: 3.9rem;
     bottom: 1rem;
     width: 7rem;
-    font-size: 10px;
+    font-size: 12px;
     height: 1.6rem;
     background-color: rgb(48, 170, 240);
     color: #fff;
@@ -105,7 +115,10 @@ body {
 
 h2{
     top: 5rem;
+    font-family: 'neon', sans-serif 
 }
+
+
 
 
 
