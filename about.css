@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;1,100;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+@font-face {
+    font-family: neon;
+    src: url("Fonts/neon_80s/Neon.ttf");
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'neon', sans-serif;
+}
+
+
+
+body{
+    background: linear-gradient(#46054e,#6f1159);
+    min-height: 100vh;
+    overflow-x: hidden;
+      
+}
+ #name{
+    font-family: 'licorice',sans-serif;
+    color: #fff;
+    font-size: 5em;
+    position: absolute;
+    left: 3em;
+    bottom: 6em;
+    letter-spacing: 8px;
+    white-space: nowrap;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+h3#name{
+    font-size: 2em;
+    position: absolute;
+    bottom: 14em;
+    left: 15em;
+
+}
+
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #861340e1, 0 0 40px #861340e1, 0 0 50px #861340e1, 0 0 60px #861340e1, 0 0 70px #861340e1;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ac4a7be5, 0 0 40px #ac4a7be5, 0 0 50px #ac4a7be5, 0 0 60px #ac4a7be5, 0 0 70px #ac4a7be5, 0 0 80px #ac4a7be5;
+    }
+  }
+
+
+
+#header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+#header .logo{
+    color: #fff;
+    font-family: 300;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+#chameleon{
+    width: 5.5rem;
+    height: 3rem;
+}
+
+#header .navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#header .navigation li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+
+#header .navigation li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+
+#header .navigation li a:hover,
+#header .navigation li a.active{
+    background: #fff;
+    color: #111;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+
+
+
+section img#lamp{
+    mix-blend-mode: screen;
+
+}
+
+
+section img#stars2{
+    display: none;
+}
+
+
+.sec{
+    position: relative;
+    padding: 100px;
+    background: #861340e1;
+}
+
+.sec h2{
+    font-size: 2.5em;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.sec p{
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 300;
+    align-items: center;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+@media (max-width: 1600px){
+    #name{
+        font-size: 4em;
+    }
+    h3#name{
+        font-size: 1.7em;
+        bottom: 13em;
+        left: 14em;
+    
+    }
+}
+
+@media (max-width: 1370px){
+    #name{
+        font-size: 4em;
+    }
+}
+@media (max-width: 1100px){
+    #name{
+        font-size: 5em;
+        bottom: 8em;
+    }
+    h3#name{
+        font-size: 1.7em;
+        bottom: 22em;
+        left: 19em;
+    }
+}
+@media (max-width: 992px){
+    #name{
+        font-size: 3.5em;
+        bottom: 12em;
+        left: 4em;
+    }
+    h3#name{
+        font-size: 1.4em;
+        bottom: 28em;
+        left: 18em;
+    }
+    #header{
+        padding: 20px;
+    }
+    #header .logo{
+        font-size: 1.5em;
+    }
+    #header .navigation{
+        display: none;
+    }
+
+    #header .navigation.active{
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        background: #6f1159;
+        opacity: 0.96;
+    }
+
+    #header .navigation li{
+        margin-left: 0;
+    }
+
+    #header .navigation li a{
+        font-size: 1.5em;
+        margin: 5px 0;
+        border-radius: 30px;
+        display: inline-block;
+
+    }
+    .toggle{
+        position: relative;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        background: url(imgs/menu.png);
+        background-size: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 10000;
+    }
+    .toggle.active{
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background: url(imgs/close.png);
+        background-size: 25px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .sec{
+        padding: 20px;
+    }
+    .sec p{
+        font-size: 1em;
+    }
+    .sec h2{
+        font-size: 1.5em;
+    }
+    section img#stars2{
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+   
+}
+
+@media (max-width: 723px){
+    #name{
+        font-size: 3em;
+        bottom: 12em;
+        left: 3em;
+    }
+    h3#name{
+        font-size: 1.2em;
+        bottom: 28em;
+        left: 17em;
+    }
+    
+}
+
+
+@media (max-width: 649px){
+    #name{
+        font-size: 2.5em;
+        bottom: 13em;
+        left: 3em;
+    }
+    h3#name{
+        font-size: 1.2em;
+        bottom: 25em;
+        left: 13em;
+    }
+    
+}
+
+
+@media (max-width: 589px){
+    #name{
+        font-size: 2.1em;
+        bottom: 12em;
+        left: 2.5em;
+    }
+    h3#name{
+        font-size: .9em;
+        bottom: 25em;
+        left: 12em;
+    }
+}
+
+
+@media (max-width: 510px){
+    #name{
+       font-size: 2em;
+       bottom: 15em;
+       left: 3em;
+    }
+    h3#name{
+        font-size: .9em;
+        bottom: 32em;
+        left: 15em;
+    }
+}
+
+@media (max-width: 435px){
+    #name{
+        display: none;
+    }
+}
