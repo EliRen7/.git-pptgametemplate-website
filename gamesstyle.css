@@ -12,10 +12,6 @@
     font-family: 'Neon', sans-serif
 }
 
-/* .navbar-nav{
-    background-color: rgb(77, 10, 90);
-} */
-
 
 
 body {
@@ -106,11 +102,9 @@ p{
     transform: translateZ(100px)
 }
 
-
-
 .nav-item:hover{
     background-color: #fff;
-    border-radius: 6px;
+    border-radius: 20px;
 }
 
 
